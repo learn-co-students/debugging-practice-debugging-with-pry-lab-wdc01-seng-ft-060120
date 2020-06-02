@@ -1,6 +1,9 @@
+#require 'pry'
 def snake_it_up(string)
   if string[0] == "s"
-  10 * "s" + string
+    s = ''
+    10.times { s += 's'} 
+    s += string 
   else
   string
   end
